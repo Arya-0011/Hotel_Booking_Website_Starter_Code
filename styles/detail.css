@@ -1,4 +1,4 @@
-.content{
+.content {
     display: flex;
     flex-direction: column;
     margin:4%;
@@ -7,11 +7,11 @@
     max-height:350px;
     width:400px;
 }*/
-form{
+form {
     margin-bottom: 1%;
     display:flex; justify-content:space-around; flex-direction: column;
 }
-.hotel-description{
+.hotel-description {
     width:95%;
     margin-bottom: 2%;
     margin-top: 1%;
@@ -61,6 +61,7 @@ form{
 }
 
 @media screen and (max-width: 576px){
+
     .content{
         display: flex;
         flex-direction: column;
@@ -69,6 +70,7 @@ form{
         margin:4%;
         overflow-y: auto;
     }
+
     .first-flex{
         display: flex;
         flex-direction: column;
@@ -76,22 +78,23 @@ form{
         margin-top: 2%;
         margin-bottom: 2%;
     }
+
     .formDiv{
         min-height: auto;
         padding: 5px; 
         border:1px solid black; 
-       
     }
+
     .image{
         display: flex; 
         justify-content: center; 
         align-items: center;
         border: 1px solid black;
     }
+    
     .hotel-description{
         margin-bottom: 2%;
         margin-top: 1%;
     }
     
 }
-
