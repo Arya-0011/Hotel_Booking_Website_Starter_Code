@@ -3,23 +3,10 @@
 
 <head>
     <title>Login</title>
-    <script>
-        function validateLogin() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-
-            // Check if the entered username and password match the predefined credentials
-            if (username === "admin" && password === "admin") {
-                alert("Login successful!");
-            } else {
-                alert("Invalid username or password. Please try again.");
-            }
-        }
-    </script>
 </head>
 
 <body>
-    <form onsubmit="validateLogin(); return false;">
+    <form action="index.html">
         <label for="username">Username:</label>
         <input type="text" name="username" id="username" placeholder="Enter Username" required autocomplete="off"><br>
         <label for="password">Password:</label>
